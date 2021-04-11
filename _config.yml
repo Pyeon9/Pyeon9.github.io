@@ -1,51 +1,47 @@
-# Config
-# ========================================================================================
+# -----------------------------------------------------------------------------
+#  User configuration
+# -----------------------------------------------------------------------------
+
+# The title of your blog. Used in the sidebar and the browser tab.
+title:                 Pyeon
+#subtitle:
+
+# The name of your blog.
+name:               Pyeon's
 
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
 url:                   https://Pyeon9.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
-#
-# When hosting your site in a subdirectory of a server, set to /<name of directory>
-# (with leading /, but without the < >)
-# Use the empty string '' otherwise.
-#
-# When using GitHub Pages, set to '' when hosting a user- or organization page,
-# i.e. when the name of the repository looks like <username>.github.io.
-# Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               ''
+# Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
+# Set to '/<reponame>' when using the `gh-pages` branch of a repository
+baseurl:             ""
+
+# A shorter description for the sidebar.
+tagline:             처음하는 작업이라 미숙한 점이 많습니다.    개선할 점 알려주시면 반영하겠습니다. 
+
+# A short description of the page, used in the sidebar and as fallback for the meta description tag.
+# Markdown enabled, but don't use more than one paragraph (enforced by `>`)
+description:         >
+  글쓰는 것에 익숙해지자.
+
+# This should be the same author as first entry in `_data/authors.yml`
+author:
+  name:              Hyeongoo Pyeon
+  email:             20153439@kookmin.ac.kr
+  picture:           /assets/icons/icon.png
+
+# Used by jekyll-seo-tag...
+# teaser:                /assets/icons/icon.png
+# logo:                  /assets/icons/icon.png
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
-# The title of your blog. Used in the sidebar and the browser tab.
-title:                 Pyeon
-
-# A short description (~150 chars) of the page used for the meta description tag.
-# Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           >
-  To be written.
-
-# A shorter description for the sidebar.
-tagline:               >
-  My first GitHub Page. `Welcome!`
-
 # A list of keywords for your blog
 keywords:              []
-
-# Used by jekyll-seo-tag...
-logo:                  /assets/icons/icon.png
-
-# This should be the same author as first entry in `_data/authors.yml`.
-# Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
-author:
-  name:                <Hyeongoo> <Pyeon>
-  email:               <20153439@kookmin.ac.kr>
-  # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2017. All rights reserved.
@@ -62,6 +58,7 @@ copyright:             © 2017. All rights reserved.
 permalink:             pretty
 
 # Pagination configuration (used by the `blog` layout)
+# 첫 페이지에서 보여줄 recent posts의 개수
 paginate:              5
 paginate_path:         /page-:num/
 
@@ -70,7 +67,7 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/IMG_7667.png
 accent_color:          '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
@@ -226,7 +223,7 @@ plugins:
 #   name:                <firstname> <lastname>
 #   links:
 #     - https://twitter.com/<username>
-#     - https://github.com/<username>
+#     - https://github.com/Pyeon9
 
 
 # Other Plugins
