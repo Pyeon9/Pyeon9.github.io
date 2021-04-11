@@ -32,6 +32,21 @@ author:
   email:             20153439@kookmin.ac.kr
   picture:           /assets/icons/icon.png
 
+
+# Add links to the sidebar.
+menu:
+  - title:             Artificial Intelligence
+    url:               /artificial-intelligence/
+  - title:             Setup
+    url:               /setup/
+  - title:             Study
+    url:               /study/
+  - title:             Diary
+    url:               /diary/
+  - title:             About
+    url:               /about/
+
+
 # Used by jekyll-seo-tag...
 # teaser:                /assets/icons/icon.png
 # logo:                  /assets/icons/icon.png
@@ -55,20 +70,20 @@ copyright:             © 2017. All rights reserved.
 #     href:              /cookies-policy/
 
 # Format of the permalinks
-permalink:             pretty
+permalink:            pretty
 
 # Pagination configuration (used by the `blog` layout)
 # 첫 페이지에서 보여줄 recent posts의 개수
 paginate:              5
-paginate_path:         /page-:num/
+paginate_path:        '/page-:num/'
 
 
 # Customizaton
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/IMG_7667.png
-accent_color:          '#4fb1ba'
+accent_image:         # /assets/img/IMG_7667.png
+accent_color:         # '#4fb1ba'
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://qwtel.com/hydejack/docs/configuration/>
@@ -146,11 +161,11 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /category/:name/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
-    permalink:         /tag/:name/
+    permalink:         /:name/
     output:            true
 
   projects:
