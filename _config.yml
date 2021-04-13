@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:              https://junha1125.github.io
+url:              https://Pyeon9.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -17,20 +17,19 @@ url:              https://junha1125.github.io
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  en, ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Just Do It And Then Some
+title:                 편백나무
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  어려운 게 아니고, 모르는 거다. 모르면 배우면 된다. 우울해 할 것 하나 없다.  
-  생각하지 말고 그냥하자. 나는 운이 아주 좋다. 모든 일은 내 뜻대로 된다.
+  Description in _config.yml. 
 
 # A shorter description for the sidebar.
 tagline:               >
-  끝까지 삽질하자. 버틴자가 승리한다. JunHa Song's Blog 
+  부지런하게 살자. 꾸준히 정리하고 기록하자. 
 
 # A list of keywords for your blog
 keywords:              []
@@ -38,13 +37,13 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/post_images/junha_cate.png
+logo:                  /assets/post_images/side_logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <JunHa> <Song>
-  email:               <sb020518@gmail.com>
+  name:                <Hyeongoo> <Pyeon>
+  email:               <letter0608@gmail.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -79,7 +78,7 @@ menu:
 #    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © All rights reserved By Junha Song.
+copyright:             © All rights reserved By Hyeongoo Pyeon.
 
 # Format of the permalinks
 permalink:             /blog/:categories/:year-:month-:day-:title/

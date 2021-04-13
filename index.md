@@ -1,3 +1,4 @@
+<!-- 
 # Just Do It And Then Some
 
 ## Hi!
@@ -17,4 +18,5 @@ Please read [AboutMe](https://junha1125.github.io/about/).
 3. [Pytorch / Docker / Git](https://junha1125.github.io/pytorch-docker-git/)
 4. [Self Study](https://junha1125.github.io/Self-Study/)
 5. [Projects](https://junha1125.github.io/projects/)
-6. [My Life](https://junha1125.github.io/my-life/)
+6. [My Life](https://junha1125.github.io/my-life/) 
+-->
