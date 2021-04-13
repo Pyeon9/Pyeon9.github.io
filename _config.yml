@@ -20,7 +20,7 @@ url:              https://Pyeon9.github.io
 lang:                  en, ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 편백나무
+title:                 편백나무 숲
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -28,8 +28,9 @@ description:           >
   Description in _config.yml. 
 
 # A shorter description for the sidebar.
-tagline:               >
-  부지런하게 살자. 꾸준히 정리하고 기록하자. 
+tagline:               |
+  부지런히 살자. 정리하고 기록하자.    
+  편백나무처럼 향기로운 사람이 되자.
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,7 +38,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/post_images/side_logo.png
+logo:                  /assets/img/sidebar-logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -51,16 +52,12 @@ author:
 menu:
   - title:             Artificial Intelligence
     url:               /artificial-intelligence/
-  - title:             Ubuntu / Language / Algorithm
-    url:               /ubuntu-python-algorithm/
-  - title:             Pytorch / Docker / Git
-    url:               /pytorch-docker-git/
-  - title:             Self Study
-    url:               /Self-Study/
-  - title:             Projects
-    url:               /projects/
-  - title:             My Life
-    url:               /my-life/
+  - title:             Setup
+    url:               /setup/
+  - title:             Study
+    url:               /study/
+  - title:             Diary
+    url:               /diary/
   - title:             About Me
     url:               /about/
 #  - title:             Résumé*
