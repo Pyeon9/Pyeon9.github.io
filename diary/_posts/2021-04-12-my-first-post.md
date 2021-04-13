@@ -15,6 +15,6 @@ description: >
 
 이미지 삽입하는 것도 연습해보기 위해, 이탈리아 어느 성당 앞 피자집에서 찍은 사진을 공유한다.
 
-![pizza](https://github.com/Pyeon9/images-for-github-page/blob/main/diary/2021-04/04-12-my-first-post/pizza.jpg)
+![pizza](https://github.com/Pyeon9/images-for-github-page/blob/main/diary/2021-04/04-12-my-first-post/pizza.jpg?raw=true)
 
 <!-- Last modified: 21-04-13, 19:28 -->
