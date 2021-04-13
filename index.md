@@ -1,3 +1,5 @@
+Thank you for visiting my blog!
+
 <!-- 
 # Just Do It And Then Some
 
