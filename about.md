@@ -3,14 +3,13 @@ title: About Me
 description: > 
     내 소개. 
 # About Me 사이드바에 나올 이미지
-image: 
+# image: 
 ---
 
 # Hyeongoo Pyeon
-
 - E-mail : letter0608@gmail.com
 - E-mail : 20153439@kookmin.ac.kr
-- Git Blog : [https://pyeon9.github.io](https://pyeon9.github.io/)  
+- Git Blog : [https://pyeon9.github.io](https://pyeon9.github.io)  
 
 
 # Education  
@@ -64,11 +63,11 @@ But not limited to.
 - Research Intern at Intelligent Mobility Lab, Kookmin University (Jan. 2019 ~ )
 
  
-
 # Awards and Honors
 - Vehicle monitoring over internet toward digital twins, Honorable Judge Award (Future Transport Design Award), Cloud Programming World Cup, Japan (2019)  
 - Capstone Awards, The Korean Society of Automotive Engineers, Korea (2019)  
 - 성곡장학생 of Graduate School of Automotive Engineering (2021.03 ~ )
+
 
 # Projects
 - Detection of Surrounding Vehicles using Deep Neural Network and Fusion of Panoramic Camera and Lidar Sensor, KOFAC(한국과학창의재단), Korea (2019)
