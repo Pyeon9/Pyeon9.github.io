@@ -10,7 +10,7 @@ image:
 
 - E-mail : letter0608@gmail.com
 - E-mail : 20153439@kookmin.ac.kr
-- Git Blog : [https://Pyeon9.github.io](https://Pyeon9.github.io/)  
+- Git Blog : [https://pyeon9.github.io](https://pyeon9.github.io/)  
 
 
 # Education  
