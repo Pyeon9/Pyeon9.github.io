@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Git] 깃블로그에 포스팅하기"
+title:  "깃블로그에 첫 글쓰기"
 description: > 
     .md 파일 작성하여 첫번째 포스팅 도전!
 ---
