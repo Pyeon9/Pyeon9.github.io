@@ -4,7 +4,7 @@ title: Diary
 slug: diary
 menu: true
 permalink: /diary/
-order: 4
+order: 5
 sitemap: false
 description: >
   이모저모.

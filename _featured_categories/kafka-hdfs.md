@@ -1,13 +1,13 @@
 ---
 layout: list
-title: Setup
-slug: setup
+title: kafka / hdfs
+slug: kafka-hdfs
 menu: true
-permalink: /setup/
-order: 3
+permalink: /kafka-hdfs/
+order: 2
 sitemap: false
 description: >
-  python, tensorflow, git 등 모든 설치 관련 내용, bug fix 등을 게시합니다.
+  kafka와 hadoop 등에 관한 정보 기록 및 공유.
 accent_color: '#268bd2'
 accent_image:
   background: '#202020'
