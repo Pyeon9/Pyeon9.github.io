@@ -5,7 +5,7 @@ description: >
    Microsoft Azure에서 제공하는 기계학습 모델 개발 자동화 프로세스인 AutoML의 튜토리얼
 ---
 
-[이전 글]()에서 AutoML을 활용하여 간단한 분류 모델을 학습시켜보았다. 이 글에서는 학습이 완료된 모델을 분석해보겠다.
+[이전 글](https://pyeon9.github.io/blog/artificial-intelligence/2021-04-17-MS-Azure-AutoML-tutorial-(1)/)에서 AutoML을 활용하여 간단한 분류 모델을 학습시켜보았다. 이 글에서는 학습이 완료된 모델을 분석해보겠다.
 
 ## 모델 분석
 
