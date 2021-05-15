@@ -48,6 +48,9 @@ producer는 json 형태로 data를 생성하고, i 값을 1000까지 증가시�
 producer 파일을 작성한 후에는 consumer.py 파일을 작성한다. producer.py와 다른 pc에서 consume하고 싶다면 bootstrap_servers에 localhost 대신 카프카 서버의 IP를 입력하면 된다.
 
 ```python
+from kafka import KafkaConsumer
+from json import loads
+
 consumer = KafkaConsumer(
     'test',
     # server's address (inference)
