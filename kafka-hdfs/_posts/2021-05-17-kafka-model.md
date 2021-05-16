@@ -82,7 +82,7 @@ message 수신 후에는 json 형태의 모델을 tf.keras.models의 model_from_
   $ python consumer.py
 ```
 
-![model-consumer](?raw=true)
+![model-consumer](https://github.com/pyeon9/images-for-github-page/blob/main/kafka-hdfs/2021-05/05-17-kafka-model/model-consumer.png?raw=true)
 
 json 형태로 모델의 정보가 출력되는 것도 볼 수 있고, 가장 마지막에는 모델 객체로 변환되어 정상적으로 출력이 됨을 확인할 수 있다. 
 
