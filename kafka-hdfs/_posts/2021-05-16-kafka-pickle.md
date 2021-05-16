@@ -88,7 +88,7 @@ label이 출력되고 전송이 완료된 것으로 나타난다.
   $ python consumer.py
 ```
 
-![03-consumer](https://github.com/pyeon9/images-for-github-page/blob/main/kafka-hdfs/2021-05/05-16-kafka-pickle/pickle-consumer.png?raw=true)
+![pickle-consumer](https://github.com/pyeon9/images-for-github-page/blob/main/kafka-hdfs/2021-05/05-16-kafka-pickle/pickle-consumer.png?raw=true)
 
 label이 value로 출력되는 것을 확인할 수 있다. 전송 전/후로 label의 shape이 다른데, 이는 tobytes() 함수와 numpy.frombuffer() 함수의 동작 때문이다. 수신 후 원하는 shape으로 바꾸어 사용하면 된다. 
 
