@@ -51,8 +51,8 @@ author:
 menu:
   - title:             Artificial Intelligence
     url:               /artificial-intelligence/
-  - title:             kafka / hdfs
-    url:               /kafka-hdfs/
+  - title:             tools
+    url:               /tools/
   - title:             Setup
     url:               /setup/
   - title:             Study
