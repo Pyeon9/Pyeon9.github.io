@@ -5,9 +5,9 @@ description: >
   CAN 데이터의 계측 파일인 mdf 파일을 Python에서 읽고 다루는 간단한 방법
 ---
 
-mdf 파일은 Measurement Data Format의 약자로, 1991년 벡터와 보쉬가 협업하여 개발한 계측 데이터용 바이너리 파일 포맷이다([참고](https://www.vector.com/kr/ko/products/application-areas/ecu-calibration/measurement/mdf/)). 
-자동차 산업에서 사실상의 표준으로 사용되므로 자동차 관련 프로젝트를 진행하다보면 쉽게 접할 수 있는 파일이다.
-`ASAM(Association for Standardisation of Automation-and Measuring System)`이라는 차량용 제어기 개발에 드는 시간과 비용을 줄이기 위해 설립된 단체가 있는데, 이 단체에서 mdf 파일을 Python에서 쉽게 다룰 수 있도록 도와주는 `**asammdf**`라는 라이브러리를 개발하였다([공식 페이지](https://pypi.org/project/asammdf/)).
+mdf 파일은 Measurement Data Format의 약자로, 1991년 벡터와 보쉬가 협업하여 개발한 계측 데이터용 바이너리 파일 포맷이다([참고](https://www.vector.com/kr/ko/products/application-areas/ecu-calibration/measurement/mdf/)).    
+자동차 산업에서 사실상의 표준으로 사용되므로 자동차 관련 프로젝트를 진행하다보면 쉽게 접할 수 있는 파일이다.   
+`ASAM(Association for Standardisation of Automation-and Measuring System)`이라는 차량용 제어기 개발에 드는 시간과 비용을 줄이기 위해 설립된 단체가 있는데, 이 단체에서 mdf 파일을 Python에서 쉽게 다룰 수 있도록 도와주는 **`asammdf`**라는 라이브러리를 개발하였다([공식 페이지](https://pypi.org/project/asammdf/)).
 
 ## 설치
 설치하기 전에 아래의 의존성 설치를 먼저 진행하면 좋다.
@@ -76,11 +76,11 @@ signals_df.to_excel(path + "signals_df.xlsx")
 signals_df.to_csv(path + "signals_df.csv")
 ```
 
-CAN 신호는 dictionary 형태로 저장되어 있어, (key, value)로 접근이 가능하다.
-CAN 신호의 이름이 key가 되고, 값이 value로 저장되어 있다.
-`t`는 데이터가 계측된 시간을 값으로 가지는데, 간혹 여러 값이 들어있어 `get()` 함수로 접근이 안될때가 있다.
-이전에는 값이 여러개 있어도 get()을 하면 가장 앞의 값을 반환했는데, 모호성을 없애고 사용자의 의도에 맞게 사용할 수 있도록 에러를 반환하도록 했다고 한다. 
-이런 경우에는 아래와 같이 활용해야 한다.
+CAN 신호는 dictionary 형태로 저장되어 있어, (key, value)로 접근이 가능하다.   
+CAN 신호의 이름이 key가 되고, 값이 value로 저장되어 있다.   
+`t`는 데이터가 계측된 시간을 값으로 가지는데, 간혹 여러 값이 들어있어 `get()` 함수로 접근이 안될때가 있다.   
+이전에는 값이 여러개 있어도 get()을 하면 가장 앞의 값을 반환했는데, 모호성을 없애고 사용자의 의도에 맞게 사용할 수 있도록 에러를 반환하도록 했다고 한다.    
+이런 경우에는 아래와 같이 활용해야 한다.   
 
 ```python
 occurrences = data.whereis("t")
@@ -89,10 +89,9 @@ signals = data.select(
 )
 ```
 
-`get()` 함수는 `asammdf.signal.Signal` 객체를 반환하므로 바로 활용하기가 어려울 수 있다.
+`get()` 함수는 `asammdf.signal.Signal` 객체를 반환하므로 바로 활용하기가 어려울 수 있다.   
 이럴때는 `신호.samples`를 입력하면 numpy array가 반환되어 변환하거나 matplotlib으로 plotting 하는 등 활용이 쉽다.
 
-더욱 자세한 것은 직접 출력해가면서 확인하면 좋을 것 같다. 
 
 
 <br/>
