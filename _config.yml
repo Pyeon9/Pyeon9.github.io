@@ -51,10 +51,10 @@ author:
 menu:
   - title:             Artificial Intelligence
     url:               /artificial-intelligence/
-  - title:             tools
-    url:               /tools/
-  - title:             Setup
-    url:               /setup/
+  - title:             Language / Algorithm
+    url:               /language-algorithm/
+  - title:             Linux / Docker
+    url:               /linux-docker/
   - title:             Study
     url:               /study/
   - title:             Diary
